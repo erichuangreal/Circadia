@@ -8,11 +8,6 @@ void setupLCD() {
   lcd.setRGB(0, 0, 100);
 }
 
-int soundToDb(int raw) {
-  if (raw < 10) raw = 10;
-  long scaled = (long)raw * 80L;
-  return (int)(scaled / 1023L);
-}
 void updateLCD(unsigned long now) {
   if (now - lastLcdChange < 1000) return;
   lastLcdChange = now;
