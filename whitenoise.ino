@@ -96,7 +96,7 @@ void updateWhiteNoise(unsigned long now) {
   // Smooth with exponential moving average (EMA) filter (noise handling)
   static int filtered = 0;
   if (filtered == 0) filtered = raw;
-  filtered = (filtered * 7 + raw) / 8;  // 1/8 filter
+  filtered = (filtered * 3 + raw) / 4;  // 3/4 filter
 
   int soundValue = filtered;  // updates the raw value with the filtered value
 
