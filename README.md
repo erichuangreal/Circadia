@@ -95,6 +95,13 @@ This improves readability, debugging, and scalability.
 Physical model of the Circadia system showing the integrated enclosure, lighting, and control layout.
 </em></p>
 
+<p align="center">
+  <img src="docs/lcd_display.jpg" width="600" />
+</p>
+<p align="center"><em>
+Closeup of LCD display, showing temperature, sound, and light readings.
+</em></p>
+
 ### Wiring Layout
 <p align="center">
   <img src="docs/wiring.jpg" width="600" />
@@ -103,3 +110,9 @@ Physical model of the Circadia system showing the integrated enclosure, lighting
 Internal wiring layout illustrating sensor inputs, actuators, and microcontroller connections.
 </em></p>
 
+<p align="center">
+  <img src="docs/breadboard_wiring.jpg" width="600" />
+</p>
+<p align="center"><em>
+Closeup of breadboard wiring. Includes MOSFETs and power supply connections.
+</em></p>
